@@ -85,7 +85,9 @@ import Contact from "../components/Contact";
 
 const Home = () => {
   return (
-    <div className=" bg-white ">
+    <div className="">
+
+
       {/* Hero Section */}
 
     <div
@@ -118,48 +120,71 @@ const Home = () => {
     </div>
     
       {/* About Section */}
-<section id="about" className=" max-w-7xl mx-auto py-20 px-4 bg-gray-50">
-  <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-    <div className="bg-gradient-to-br from-indigo-400 to-blue-600 rounded-2xl h-96 flex items-center justify-center shadow-2xl">
-   
-      {/* Add image or content here if needed */}
-   
-    </div>
-    <div>
-      <h2 className="text-center md:text-start  text-2xl md:text-3xl font-bold text-gray-900 mb-6">About Us</h2>
-      <p className="text-center md:text-start text-lg text-gray-700 mb-4">
+<div className="bg-gray-50"> 
+
+<div id="about" className="max-w-7xl mx-auto py-8 md:py-16 px-4 ">
+  <div className="grid md:grid-cols-2 gap-10 items-center">
+
+    {/* TEXT SECTION (About Us) */}
+    <div className="order-1 md:order-2 text-center md:text-left">
+      <h2 className="text-2xl md:text-5xl mb-6 md:mb-0 font-bold text-gray-900">
+        About Us
+      </h2>
+
+      <p className="text-base md:text-lg text-gray-700 mb-3">
         We are dedicated to helping businesses achieve growth and success across digital platforms.
       </p>
-      <p className="text-center md:text-start text-lg text-gray-700 mb-6">
-        Our expertise lies in creating high-performance websites, optimizing digital marketing strategies, and offering eCommerce solutions to scale your business.
+
+      <p className="text-base md:text-lg text-gray-700 mb-6">
+        Our expertise lies in creating high-performance websites, optimizing digital marketing strategies,
+        and offering eCommerce solutions to scale your business.
       </p>
 
-      <div className="space-y-4 flex flex-col items-center md:items-start"> {/* Added flex and centered the items */}
-        <div className="flex items-center gap-3">
+      {/* POINTS */}
+      <div className="space-y-4 flex flex-col items-center md:items-start">
+        <div className="flex items-center gap-3 justify-center md:justify-start">
           <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-          <span className="text-gray-700">
+          <span className="text-gray-700 text-sm md:text-base">
             Proven track record of success
           </span>
         </div>
-        <div className="flex items-center gap-3">
+
+        <div className="flex items-center gap-3 justify-center md:justify-start">
           <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-          <span className="text-gray-700">Dedicated support team</span>
+          <span className="text-gray-700 text-sm md:text-base">
+            Dedicated support team
+          </span>
         </div>
-        <div className="flex items-center gap-3">
+
+        <div className="flex items-center gap-3 justify-center md:justify-start">
           <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-          <span className="text-gray-700">Cutting-edge technology</span>
+          <span className="text-gray-700 text-sm md:text-base">
+            Cutting-edge technology
+          </span>
         </div>
       </div>
     </div>
+
+    {/* IMAGE / BOX SECTION */}
+    <div className="order-2 md:order-1">
+      <div className="bg-gradient-to-br from-indigo-400 to-blue-600 rounded-2xl h-72 md:h-96 flex items-center justify-center shadow-2xl">
+        {/* Image yahan add kar sakte ho */}
+      </div>
+    </div>
+
   </div>
-</section>
+</div>
+
+</div>
+
+
 
       
 
       {/* Services Section */}
-    <section id="service" className="max-w-7xl mx-auto py-20 px-4 bg-white">
+    <section id="service" className="max-w-7xl mx-auto py-10 md:py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl md:text-5xl font-bold text-center mb-16 text-gray-900">
+        <h2 className="text-2xl md:text-5xl font-bold text-center mb-10 mt-4 md:mt-0 text-gray-900">
           E-Commerce Services
         </h2>
         
