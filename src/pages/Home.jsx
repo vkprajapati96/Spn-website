@@ -72,15 +72,15 @@ import Contact from "../components/Contact";
   },
 ];
   const colorMap = {
-    blue: { icon: "text-blue-600", bg: "bg-blue-100" },
-    purple: { icon: "text-purple-600", bg: "bg-purple-100" },
-    emerald: { icon: "text-emerald-600", bg: "bg-emerald-100" },
-    orange: { icon: "text-orange-600", bg: "bg-orange-100" },
-    green: { icon: "text-green-600", bg: "bg-green-100" },
-    indigo: { icon: "text-indigo-600", bg: "bg-indigo-100" },
-    rose: { icon: "text-rose-600", bg: "bg-rose-100" },
-    cyan: { icon: "text-cyan-600", bg: "bg-cyan-100" },
-    amber: { icon: "text-amber-600", bg: "bg-amber-100" },
+    blue: { icon: "text-blue-600", bg: "bg-blue-200" },
+    purple: { icon: "text-purple-600", bg: "bg-purple-200" },
+    emerald: { icon: "text-emerald-600", bg: "bg-emerald-200" },
+    orange: { icon: "text-orange-600", bg: "bg-orange-200" },
+    green: { icon: "text-green-600", bg: "bg-green-200" },
+    indigo: { icon: "text-indigo-600", bg: "bg-indigo-200" },
+    rose: { icon: "text-rose-600", bg: "bg-rose-200" },
+    cyan: { icon: "text-cyan-600", bg: "bg-cyan-200" },
+    amber: { icon: "text-amber-600", bg: "bg-amber-200" },
   };
 
 const Home = () => {
@@ -185,7 +185,7 @@ const Home = () => {
                 <ul className="space-y-2 mb-6">
                   {service.includes.map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-gray-700 text-sm">
-                      <span className={`w-2 h-2 rounded-full ${colors.icon.replace('text-', 'bg-')} mt-1.5 flex-shrink-0`}></span>
+<span className={`w-2 h-2 rounded-full ${colors.bg} mt-1.5 shrink-0`}></span>
                       <span>{item}</span>
                     </li>
                   ))}
