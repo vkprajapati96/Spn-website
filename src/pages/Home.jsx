@@ -2,7 +2,8 @@ import { ArrowRight, Zap, Target, TrendingUp, Menu, X } from "lucide-react";
 import { ShoppingCart, Package,Award } from 'lucide-react';
 
 // import background2 from "../images/background2.jpeg"
-// import background3 from "../images/background3.jpeg"
+import about1 from "../images/about1.jpg"
+import about2 from "../images/about2.jpg"
 import background4 from "../images/background4.jpeg"
 
 import Contact from "../components/Contact";
@@ -127,7 +128,7 @@ const Home = () => {
 
     {/* TEXT SECTION (About Us) */}
     <div className="order-1 md:order-2 text-center md:text-left">
-      <h2 className="text-2xl md:text-5xl mb-6 md:mb-0 font-bold text-gray-900">
+      <h2 className="text-2xl md:text-5xl mb-6 md:mb-6 font-bold text-gray-900">
         About Us
       </h2>
 
@@ -167,8 +168,9 @@ const Home = () => {
 
     {/* IMAGE / BOX SECTION */}
     <div className="order-2 md:order-1">
-      <div className="bg-gradient-to-br from-indigo-400 to-blue-600 rounded-2xl h-72 md:h-96 flex items-center justify-center shadow-2xl">
+      <div className="  rounded-2xl h-72 md:h-96 flex items-center justify-center shadow-2xl">
         {/* Image yahan add kar sakte ho */}
+        <img className="w-full h-full object-cover rounded-2xl" src={about1} alt="" />
       </div>
     </div>
 
