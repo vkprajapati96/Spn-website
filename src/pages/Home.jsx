@@ -157,7 +157,7 @@ const Home = () => {
       {/* Services Section */}
     <section id="service" className="max-w-7xl mx-auto py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900">
+        <h2 className="text-2xl md:text-5xl font-bold text-center mb-16 text-gray-900">
           E-Commerce Services
         </h2>
         
