@@ -63,9 +63,10 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact' className="py-20 px-4 bg-gray-50 min-h-screen flex items-center">
-      <div className="max-w-6xl mx-auto w-full">
+    <section id='contact' className="py-20 px-4 bg-gray-50 flex items-center">
+      <div className="max-w-7xl mx-auto w-full">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-900">Get In Touch</h1>
+        <p className="text-center text-gray-600 mb-12 text-lg"> Send us a message!</p>
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Left Side - Form */}

@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white backdrop-blur-sm z-50 sticky top-0 w-full">
-      <div className="w-full max-w-[1340px] mx-auto flex justify-between items-center py-3 px-4">
+      <div className="w-full max-w-7xl mx-auto flex justify-between items-center py-3 px-4">
         {/* Logo */}
         <div>
           <Link to="/">

@@ -88,11 +88,11 @@ const Home = () => {
     <div className=" bg-white ">
       {/* Hero Section */}
 
-       <div
-      className="bg-cover bg-center h-[100vh] relative"
-      style={{ backgroundImage: `url(${background4})` }}
-    >
-      {/* Blur Overlay */}
+    <div
+  className="bg-no-repeat bg-center bg-cover md:bg-cover h-[70vh] md:h-[100vh] relative"
+  style={{ backgroundImage: `url(${background4})` }}
+>
+
       {/* <div className="absolute inset-0 bg-opacity-10 backdrop-blur-[8px]"></div> */}
 
       {/* Content */}
@@ -118,7 +118,7 @@ const Home = () => {
     </div>
     
       {/* About Section */}
-<section id="about" className=" max-w-[1340px] mx-auto py-20 px-4 bg-gray-50">
+<section id="about" className=" max-w-7xl mx-auto py-20 px-4 bg-gray-50">
   <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
     <div className="bg-gradient-to-br from-indigo-400 to-blue-600 rounded-2xl h-96 flex items-center justify-center shadow-2xl">
       {/* Add image or content here if needed */}
@@ -155,7 +155,7 @@ const Home = () => {
       
 
       {/* Services Section */}
-    <section id="service" className="max-w-[1340px] mx-auto py-20 px-4 bg-white">
+    <section id="service" className="max-w-7xl mx-auto py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900">
           E-Commerce Services
