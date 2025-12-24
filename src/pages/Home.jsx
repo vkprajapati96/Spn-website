@@ -124,7 +124,7 @@ const Home = () => {
       {/* Add image or content here if needed */}
     </div>
     <div>
-      <h2 className="text-center md:text-start text-3xl font-bold text-gray-900 mb-6">About Us</h2>
+      <h2 className="text-center md:text-start  text-2xl md:text-3xl font-bold text-gray-900 mb-6">About Us</h2>
       <p className="text-center md:text-start text-lg text-gray-700 mb-4">
         We are dedicated to helping businesses achieve growth and success across digital platforms.
       </p>
