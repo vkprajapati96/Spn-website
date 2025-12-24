@@ -8,7 +8,11 @@ const Footer = () => {
         {/* Logo and Description Section */}
         <div className="text-center md:text-left">
           <h4 className="text-white font-bold mb-4">ECommerceServices4u</h4>
-          <p className='w-80 '>ecomerceservies4u helps businesses grow online with complete eCommerce solutions from store setup and product listing to marketing, optimization, and sales growth across leading marketplaces and websites.</p>
+<p className="max-w-full  md:max-w-sm mx-auto md:mx-0 text-sm leading-relaxed">
+  ecomerceservies4u helps businesses grow online with complete eCommerce solutions
+  from store setup and product listing to marketing, optimization, and sales growth
+  across leading marketplaces and websites.
+</p>
         </div>
 
         {/* Company Links Section */}
