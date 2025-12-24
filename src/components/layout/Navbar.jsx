@@ -116,13 +116,13 @@ const Navbar = () => {
             </li>
           </Link>
 
-          <Link to="/about" onClick={() => setOpen(false)}>
+          <a href="#about" onClick={() => setOpen(false)}>
             <li className="text-lg  hover:text-blue-600">About Us</li>
-          </Link>
+          </a>
 
           {/* Services inside mobile */}
           <a href="#service"><li
-            onClick={() => setShowServices(!showServices)} 
+          onClick={() => setOpen(false)} 
             className="flex text-lg items-center gap-1 cursor-pointer hover:text-blue-600"
           >
             Services
