@@ -89,9 +89,9 @@ const Home = () => {
       {/* Hero Section */}
 
     <div
-  className="bg-no-repeat bg-center bg-cover md:bg-cover h-[70vh] md:h-[100vh] relative"
-  style={{ backgroundImage: `url(${background4})` }}
->
+      className="bg-no-repeat bg-center bg-cover md:bg-cover h-[70vh] md:h-[100vh] relative"
+      style={{ backgroundImage: `url(${background4})` }}
+  >
 
       {/* <div className="absolute inset-0 bg-opacity-10 backdrop-blur-[8px]"></div> */}
 
@@ -121,7 +121,9 @@ const Home = () => {
 <section id="about" className=" max-w-7xl mx-auto py-20 px-4 bg-gray-50">
   <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
     <div className="bg-gradient-to-br from-indigo-400 to-blue-600 rounded-2xl h-96 flex items-center justify-center shadow-2xl">
+   
       {/* Add image or content here if needed */}
+   
     </div>
     <div>
       <h2 className="text-center md:text-start  text-2xl md:text-3xl font-bold text-gray-900 mb-6">About Us</h2>
