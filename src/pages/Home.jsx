@@ -3,7 +3,6 @@ import { ShoppingCart, Package,Award } from 'lucide-react';
 
 // import background2 from "../images/background2.jpeg"
 import about1 from "../images/about1.jpg"
-import about2 from "../images/about2.jpg"
 import background4 from "../images/background4.jpeg"
 
 import Contact from "../components/Contact";
