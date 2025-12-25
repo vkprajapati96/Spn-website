@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 import logo from "../../images/logo.png"
 
@@ -33,14 +34,36 @@ const Footer = () => {
         </div>
 
         {/* Social Media Links Section */}
-        <div className="text-center md:text-left">
-          <h4 className="text-white font-bold mb-4">Follow Us</h4>
-          <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-white">Facebook</a></li>
-            <li><a href="#" className="hover:text-white">LinkedIn</a></li>
-            <li><a href="#" className="hover:text-white">Twitter</a></li>
-          </ul>
-        </div>
+      <div className="text-center md:text-left">
+  <h4 className="text-white font-bold mb-4">Follow Us</h4>
+
+  <div className="flex justify-center md:justify-start gap-4">
+    <a
+      href="#"
+      className="w-8 h-8 flex items-center justify-center rounded-full bg-white/10 hover:bg-white hover:text-black transition"
+      aria-label="Instagram"
+    >
+      <FaInstagram size={15} />
+    </a>
+
+    <a
+      href="#"
+      className="w-8 h-8 flex items-center justify-center rounded-full bg-white/10 hover:bg-white hover:text-black transition"
+      aria-label="Facebook"
+    >
+      <FaFacebookF size={15} />
+    </a>
+
+    <a
+      href="#"
+      className="w-8 h-8 flex items-center justify-center rounded-full bg-white/10 hover:bg-white hover:text-black transition"
+      aria-label="LinkedIn"
+    >
+      <FaLinkedinIn size={15} />
+    </a>
+  </div>
+</div>
+
       </div>
       
       {/* Footer Bottom */}
