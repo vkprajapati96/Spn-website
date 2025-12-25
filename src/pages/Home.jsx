@@ -1,9 +1,9 @@
 import { ArrowRight, Zap, Target, TrendingUp, Menu, X } from "lucide-react";
-import { ShoppingCart, Package,Award } from 'lucide-react';
 
 // import background2 from "../images/background2.jpeg"
-import about1 from "../images/about1.jpg"
-import background4 from "../images/background4.jpeg"
+import about1 from "../images/about1.png"
+
+import background from "../images/background.jpeg"
 
 import Contact from "../components/Contact";
   const services = [
@@ -90,35 +90,40 @@ const Home = () => {
 
       {/* Hero Section */}
 
-    <div
-      className="bg-no-repeat bg-center bg-cover md:bg-cover h-[70vh] md:h-[100vh] relative"
-      style={{ backgroundImage: `url(${background4})` }}
-  >
+  <div
+  className="bg-no-repeat bg-center bg-cover h-[70vh] md:h-[100vh] relative"
+  style={{ backgroundImage: `url(${background})` }}
+>
+  {/* <div className="absolute inset-0 bg-opacity-10 backdrop-blur-[8px]"></div> */}
 
-      {/* <div className="absolute inset-0 bg-opacity-10 backdrop-blur-[8px]"></div> */}
+  {/* Content */}
+  <div className="relative flex items-center justify-center h-full">
+    <div className="text-center mt-[-30px] text-white px-4 md:px-8 max-w-3xl">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
+        ECommerceServices4u
+      </h1>
 
-      {/* Content */}
-      <div className="relative  flex items-center justify-center h-full">
-        <div className="text-center  mt-[-30px] text-white px-4 md:px-8 max-w-3xl">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
-            ECommerceServices4u
-          </h1>
-          <p className="text-lg sm:text-xl md:text-2xl mb-6 font-semibold">
-            Your Complete E-Commerce Solution
-          </p>
-          <p className="text-sm sm:text-base md:text-lg mb-8 leading-relaxed">
-            We specialize in scaling your e-commerce business across Amazon, Flipkart, Meesho, Walmart, and eBay. From product listing optimization and marketplace SEO to PPC advertising and account management, we handle everything to maximize your sales and visibility.
-          </p>
-          <a
-            href="#contact"
-            className="w-50  bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg flex items-center justify-center gap-2 text-lg font-semibold mx-auto transition"
-          >
-            Get In Touch <ArrowRight size={20} />
-          </a>
-        </div>
-      </div>
+      <p className="text-lg sm:text-xl md:text-2xl mb-6 font-semibold">
+        Your Complete E-Commerce Solution
+      </p>
+
+      <p className="text-sm sm:text-base md:text-lg mb-8 leading-relaxed">
+        We specialize in scaling your e-commerce business across Amazon, Flipkart,
+        Meesho, Walmart, and eBay. From product listing optimization and marketplace
+        SEO to PPC advertising and account management, we handle everything to
+        maximize your sales and visibility.
+      </p>
+
+      <a
+        href="#contact"
+        className="w-50 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg flex items-center justify-center gap-2 text-lg font-semibold mx-auto transition"
+      >
+        Get In Touch <ArrowRight size={20} />
+      </a>
     </div>
-    
+  </div>
+</div>
+  
       {/* About Section */}
 <div className="bg-gray-50"> 
 

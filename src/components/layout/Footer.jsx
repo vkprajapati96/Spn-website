@@ -11,7 +11,7 @@ const Footer = () => {
         {/* Logo and Description Section */}
 <div className="text-center md:text-left">
   <img
-    className="w-40 h-15 mb-2 mx-auto md:mx-0 md:w-55 md:h-15 md:mb-2"
+    className="w-40 h-15 mb-2 mx-auto md:mx-0 md:w-50 md:h-12 md:mb-2"
     src={logo}
     alt=""
   />
@@ -65,12 +65,13 @@ const Footer = () => {
 </div>
 
       </div>
-      
+  
       {/* Footer Bottom */}
       <div className="border-t border-gray-700 pt-8 text-center text-sm">
         <p>&copy; 2025 ECommerceServices4u. All rights reserved.</p>
       </div>
     </footer>
+
   )
 }
 
