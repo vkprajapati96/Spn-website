@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../../images/logo.png";
+import logo2 from "../../images/logo2.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -8,20 +8,24 @@ const Footer = () => {
     <footer className="bg-gray-900 text-gray-300 py-12 px-4">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-center md:justify-between gap-8 mb-8">
         {/* Logo and Description Section */}
-        <Link to="/" className="text-center md:text-left">
-          <img
-            className="w-40 h-15 mb-2 mx-auto md:mx-0 md:w-50 md:h-12 md:mb-2"
-            src={logo}
-            alt=""
-          />
+    <div className="flex flex-col items-center md:items-start text-center md:text-left">
+  
+  <Link to="/">
+    <img
+      src={logo2}
+      className="w-40 mb-2"
+      alt="logo"
+    />
+  </Link>
 
-          <p className="max-w-full md:max-w-sm mx-auto md:mx-0 text-sm leading-relaxed">
-            ecomerceservies4u helps businesses grow online with complete
-            eCommerce solutions from store setup and product listing to
-            marketing, optimization, and sales growth across leading
-            marketplaces and websites.
-          </p>
-        </Link>
+  <p className="max-w-full md:max-w-sm text-sm leading-relaxed">
+    ecomerceservies4u helps businesses grow online with complete
+    eCommerce solutions from store setup and product listing to
+    marketing, optimization, and sales growth across leading
+    marketplaces and websites.
+  </p>
+
+</div>
 
         {/* Company Links Section */}
         <div className="text-center md:text-left">

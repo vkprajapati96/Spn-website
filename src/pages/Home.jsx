@@ -1,6 +1,7 @@
 import { ArrowRight, Zap, Target, TrendingUp, Menu, X } from "lucide-react";
 
-// import background2 from "../images/background2.jpeg"
+
+
 import about1 from "../images/about1.png"
 
 import background from "../images/background.jpeg"
@@ -137,37 +138,21 @@ const Home = () => {
       </h2>
 
       <p className="text-base md:text-lg text-gray-700 mb-3">
-        We are dedicated to helping businesses achieve growth and success across digital platforms.
+We help businesses grow and succeed in the digital world. Our team builds powerful websites, effective eCommerce platforms, and smart digital marketing solutions that support long-term business growth.
       </p>
+      <h3 className="text-xl md:text-2xl mb-6 md:mb-6 font-bold text-gray-900">
+    Our Mission       
+      </h3>
+
 
       <p className="text-base md:text-lg text-gray-700 mb-6">
-        Our expertise lies in creating high-performance websites, optimizing digital marketing strategies,
-        and offering eCommerce solutions to scale your business.
-      </p>
+Our mission is to empower businesses with reliable technology and result-driven strategies. With a proven track record, dedicated support, and modern tools, we aim to help our clients scale confidently and achieve lasting success online.      </p>
 
       {/* POINTS */}
-      <div className="space-y-4 flex flex-col items-center md:items-start">
-        <div className="flex items-center gap-3 justify-center md:justify-start">
-          <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-          <span className="text-gray-700 text-sm md:text-base">
-            Proven track record of success
-          </span>
-        </div>
+      
+      
 
-        <div className="flex items-center gap-3 justify-center md:justify-start">
-          <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-          <span className="text-gray-700 text-sm md:text-base">
-            Dedicated support team
-          </span>
-        </div>
-
-        <div className="flex items-center gap-3 justify-center md:justify-start">
-          <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-          <span className="text-gray-700 text-sm md:text-base">
-            Cutting-edge technology
-          </span>
-        </div>
-      </div>
+      
     </div>
 
     {/* IMAGE / BOX SECTION */}

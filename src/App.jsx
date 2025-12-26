@@ -5,11 +5,14 @@ import Footer from './components/layout/Footer'
 import Home from './pages/Home'
 import CallButton from './components/CallButton'
 import PrivacyPolicy from './pages/PrivacyPolicy'
+import ScrollTop from './components/ScrollTop'
 
 
   function App() {
   return (
     <div>
+
+    <ScrollTop/>
     <CallButton/>
       <Navbar/>
 

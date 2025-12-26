@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { X, ChevronDown, Menu, PhoneCall, HousePlus } from "lucide-react";
 import { Link } from "react-router-dom";
 // import { HashLink } from "react-router-hash-link";
-import logo from "../../images/logo.jpg"
+import logo from "../../images/logo2.png"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
