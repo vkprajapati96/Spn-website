@@ -73,7 +73,6 @@ const ContactUs = () => {
           <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8">
             {submitted && (
               <div className="mb-6 p-4 bg-green-100 border-2 border-green-400 rounded-lg flex items-center gap-3">
-                <span className="text-3xl">✅</span>
                 <div>
                   <p className="text-green-900 font-bold">Success!</p>
                   <p className="text-green-800 text-sm">Your message has been sent successfully.</p>
@@ -157,13 +156,12 @@ const ContactUs = () => {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white font-semibold py-3 rounded-lg flex items-center justify-center gap-2 transition-all duration-200 transform hover:scale-105 disabled:hover:scale-100"
+                className="cursor-pointer w-full bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white font-semibold py-3 rounded-lg flex items-center justify-center gap-2 transition-all duration-200 transform hover:scale-105 disabled:hover:scale-100"
               >
                 {loading ? (
-                  <>
-                    <span className="animate-spin">⏳</span>
+                  <div>
                     Sending...
-                  </>
+                  </div>
                 ) : (
                   <>
                     Send Message
