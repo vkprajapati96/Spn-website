@@ -34,10 +34,10 @@ const ContactUs = () => {
 
     emailjs
       .send(
-        "service_u70fxhb",
-        "template_f4prxmp",
+        "service_u70fxhb",   //service id
+        "template_f4prxmp",  // temp id
         formData,
-        "kzgPVGtnSRSDLTt6g"
+        "kzgPVGtnSRSDLTt6g"   // public id
       )
       .then(
         (result) => {
@@ -74,7 +74,6 @@ const ContactUs = () => {
             {submitted && (
               <div className="mb-6 p-4 bg-green-100 border-2 border-green-400 rounded-lg flex items-center gap-3">
                 <div>
-                  <p className="text-green-900 font-bold">Success!</p>
                   <p className="text-green-800 text-sm">Your message has been sent successfully.</p>
                 </div>
               </div>
