@@ -5,8 +5,9 @@ import { ArrowRight, Zap, Target, TrendingUp, Menu, X } from "lucide-react";
 import about1 from "../images/about1.png"
 
 import background from "../images/background.jpeg"
+import ContactUs from "../components/ContactUs";
 
-import Contact from "../components/Contact";
+
   const services = [
   {
     title: "Account Setup",
@@ -216,9 +217,9 @@ Our mission is to empower businesses with reliable technology and result-driven 
       </div>
     </section>
 
-
-     <Contact/> 
-
+{/* contact */}
+<ContactUs/>
+  
     </div>
   );
 };

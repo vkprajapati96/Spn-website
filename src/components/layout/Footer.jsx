@@ -19,7 +19,7 @@ const Footer = () => {
   </Link>
 
   <p className="max-w-full md:max-w-sm text-sm leading-relaxed">
-    ecomerceservies4u helps businesses grow online with complete
+    EComerceServies4u helps businesses grow online with complete
     eCommerce solutions from store setup and product listing to
     marketing, optimization, and sales growth across leading
     marketplaces and websites.
