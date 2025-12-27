@@ -34,10 +34,10 @@ const ContactUs = () => {
 
     emailjs
       .send(
-        "service_u70fxhb",   //service id
-        "template_f4prxmp",  // temp id
+        "service_2j4l831",   //service id
+        "template_7k7lre4",  // temp id
         formData,
-        "kzgPVGtnSRSDLTt6g"   // public id
+        "QvckDtAHvfblw04Bu"   // public id
       )
       .then(
         (result) => {
