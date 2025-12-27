@@ -62,7 +62,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="py-12 md:py-20 px-4 md:px-8 bg-gray-50">
+    <section id="contact" className="py-12 md:py-20 px-4 md:px-8 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 text-gray-900">
           Get In Touch
