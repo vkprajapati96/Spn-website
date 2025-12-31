@@ -18,7 +18,9 @@ const ContactUs = () => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
+
     });
+    
   };
 
   const sendEmail = (e) => {

@@ -26,7 +26,7 @@ const PrivacyPolicy = () => {
       </p>
 
       {/* Section 1 */}
-      <h2 className="text-2xl font-semibold mb-4">1. Information We Collect</h2>
+      <h2 className="text-xl md:text-2xl font-semibold mb-4">1. Information We Collect</h2>
 
       <h3 className="font-semibold mb-2">a) Personal Information</h3>
       <ul className="list-disc pl-6 mb-4">
@@ -52,7 +52,7 @@ const PrivacyPolicy = () => {
       </ul>
 
       {/* Section 2 */}
-      <h2 className="text-2xl font-semibold mb-4">
+      <h2 className="text-lg md:text-2xl font-semibold mb-4">
         2. How We Use Your Information
       </h2>
 
@@ -67,7 +67,7 @@ const PrivacyPolicy = () => {
       </ul>
 
       {/* Section 3 */}
-      <h2 className="text-2xl font-semibold mb-4">3. Amazon Data Usage</h2>
+      <h2 className="text-xl md:text-2xl font-semibold mb-4">3. Amazon Data Usage</h2>
 
       <ul className="list-disc pl-6 mb-10">
         <li>We access Amazon seller data only with explicit user authorization</li>
@@ -78,7 +78,7 @@ const PrivacyPolicy = () => {
       </ul>
 
       {/* Section 4 */}
-      <h2 className="text-2xl font-semibold mb-4">
+      <h2 className="text-xl md:text-2xl font-semibold mb-4">
         4. Data Sharing & Disclosure
       </h2>
 
@@ -97,7 +97,7 @@ const PrivacyPolicy = () => {
       </p>
 
       {/* Section 5 */}
-      <h2 className="text-2xl font-semibold mb-4">
+      <h2 className="text-xl md:text-2xl font-semibold mb-4">
         5. Data Storage & Security
       </h2>
 
@@ -109,7 +109,7 @@ const PrivacyPolicy = () => {
       </ul>
 
       {/* Section 6 */}
-      <h2 className="text-2xl font-semibold mb-4">6. Data Retention</h2>
+      <h2 className="text-xl md:text-2xl font-semibold mb-4">6. Data Retention</h2>
 
       <ul className="list-disc pl-6 mb-10">
         <li>Only as long as necessary to provide services</li>
@@ -118,7 +118,7 @@ const PrivacyPolicy = () => {
       </ul>
 
       {/* Section 7 */}
-      <h2 className="text-2xl font-semibold mb-4">
+      <h2 className="text-lg md:text-2xl font-semibold mb-4">
         7. Cookies & Tracking Technologies
       </h2>
 
@@ -129,7 +129,7 @@ const PrivacyPolicy = () => {
       </ul>
 
       {/* Section 8 */}
-      <h2 className="text-2xl font-semibold mb-4">8. Your Rights</h2>
+      <h2 className="text-xl md:text-2xl font-semibold mb-4">8. Your Rights</h2>
 
       <ul className="list-disc pl-6 mb-10">
         <li>Access your personal data</li>
@@ -139,7 +139,7 @@ const PrivacyPolicy = () => {
       </ul>
 
       {/* Section 9 */}
-      <h2 className="text-2xl font-semibold mb-4">9. Third-Party Links</h2>
+      <h2 className=" text-xl md:text-2xl font-semibold mb-4">9. Third-Party Links</h2>
 
       <p className="mb-10">
         Our website may contain links to third-party websites. We are not
@@ -147,7 +147,7 @@ const PrivacyPolicy = () => {
       </p>
 
       {/* Section 10 */}
-      <h2 className="text-2xl font-semibold mb-4">10. Children’s Privacy</h2>
+      <h2 className="text-xl md:text-2xl font-semibold mb-4">10. Children’s Privacy</h2>
 
       <p className="mb-10">
         Our services are not intended for individuals under the age of 18. We do
@@ -155,7 +155,7 @@ const PrivacyPolicy = () => {
       </p>
 
       {/* Section 11 */}
-      <h2 className="text-2xl font-semibold mb-4">11. Policy Updates</h2>
+      <h2 className="text-xl md:text-2xl font-semibold mb-4">11. Policy Updates</h2>
 
       <p className="mb-10">
         We may update this Privacy Policy from time to time. Continued use of
@@ -163,22 +163,22 @@ const PrivacyPolicy = () => {
       </p>
 
       {/* Section 12 */}
-      <h2 className="text-2xl font-semibold mb-4">12. Contact Information</h2>
+      <h2 className="text-xl md:text-2xl font-semibold mb-4">12. Contact Information</h2>
 
       <p>
-        <strong>Company Name:</strong> E-Commerce Service 4u
+        <span className="font-semibold">Company Name:</span> eCommerceService4u
       </p>
       <p>
-        <strong>Email:</strong> gagandigitalmarketing@gmail.com
+        <span className="font-semibold"> Email:</span> gagandigitalmarketing@gmail.com
       </p>
       <p>
-        <strong>Phone:</strong> +91 8860567964
+        <span className="font-semibold">Phone:</span> +91 8860567964
       </p>
       <p>
-        <strong>Address:</strong> Sadar Bazar, Delhi - 110006
+        <span className="font-semibold">Address:</span> Sadar Bazar, Delhi - 110006
       </p>
       <p>
-        <strong>Website:</strong> www.ECommerceService4u.com
+        <span className="font-semibold">Website:</span> www.ECommerceService4u.com
       </p>
 
     </div>

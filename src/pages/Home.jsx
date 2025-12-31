@@ -127,6 +127,7 @@ const Home = () => {
 </div>
   
       {/* About Section */}
+      
 <div className="bg-gray-50"> 
 
 <div id="about" className="max-w-7xl mx-auto py-8 md:py-16 px-4 ">
@@ -139,7 +140,7 @@ const Home = () => {
       </h2>
 
       <p className="text-base md:text-lg text-gray-700 mb-3">
-We help businesses grow and succeed in the digital world. Our team builds powerful websites, effective eCommerce platforms, and smart digital marketing solutions that support long-term business growth.
+We help businesses grow and succeed in the digital world. Our team builds effective eCommerce platforms, and smart digital marketing solutions that support long-term business growth.
       </p>
       <h3 className="text-xl md:text-2xl mb-6 md:mb-6 font-bold text-gray-900">
     Our Mission       
