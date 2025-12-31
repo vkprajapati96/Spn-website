@@ -105,7 +105,7 @@ const Home = () => {
         ECommerceServices4u
       </h1>
 
-      <p className="text-lg sm:text-xl md:text-2xl mb-6 font-semibold">
+      <p className="text-[16px] sm:text-xl md:text-2xl mb-6 font-semibold">
         Your Complete E-Commerce Solution
       </p>
 
@@ -140,9 +140,9 @@ const Home = () => {
       </h2>
 
       <p className="text-base md:text-lg text-gray-700 mb-3">
-We help businesses grow and succeed in the digital world. Our team builds effective eCommerce platforms, and smart digital marketing solutions that support long-term business growth.
+We help businesses grow and succeed in the digital world. Our team builds effective ecommerce platforms, and smart digital marketing solutions that support long-term business growth.
       </p>
-      <h3 className="text-xl md:text-2xl mb-6 md:mb-6 font-bold text-gray-900">
+      <h3 className="text-xl md:text-2xl md:mt-6 mb-6 md:mb-2 font-bold text-gray-900">
     Our Mission       
       </h3>
 

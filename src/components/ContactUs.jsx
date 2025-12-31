@@ -92,12 +92,12 @@ const ContactUs = () => {
               {/* Name */}
               <div>
                 <label className="block text-sm font-semibold text-gray-800 mb-2">
-                  Full Name *
+                  Full Name 
                 </label>
                 <input
                   type="text"
                   name="name"
-                  placeholder="Your full name"
+                  placeholder="Name"
                   value={formData.name}
                   onChange={handleChange}
                   required
@@ -108,12 +108,12 @@ const ContactUs = () => {
               {/* Email */}
               <div>
                 <label className="block text-sm font-semibold text-gray-800 mb-2">
-                  Email Address *
+                  Email Address 
                 </label>
                 <input
                   type="email"
                   name="email"
-                  placeholder="your@email.com"
+                  placeholder="Email"
                   value={formData.email}
                   onChange={handleChange}
                   required
@@ -124,12 +124,12 @@ const ContactUs = () => {
               {/* Phone */}
               <div>
                 <label className="block text-sm font-semibold text-gray-800 mb-2">
-                  Phone Number *
+                  Phone Number 
                 </label>
                 <input
                   type="tel"
                   name="phone"
-                  placeholder="+91 XXXXXXXXXX"
+                  placeholder="Number"
                   value={formData.phone}
                   onChange={handleChange}
                   required
@@ -140,7 +140,7 @@ const ContactUs = () => {
               {/* Message */}
               <div>
                 <label className="block text-sm font-semibold text-gray-800 mb-2">
-                  Message *
+                  Message 
                 </label>
                 <textarea
                   name="message"

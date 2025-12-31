@@ -91,7 +91,7 @@ const Navbar = () => {
     <div className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 
     rounded-lg flex items-center gap-2 text-lg font-semibold mx-auto transition">
       <PhoneCall className="w-5 h-5 font-semibold text-xl" />
-      <span className="text-lg font-semibold">8860567964</span>
+      <span className="text-lg font-semibold">+91 8860567964</span>
     </div>
   </a>
 </div>
@@ -149,11 +149,11 @@ const Navbar = () => {
           </a>
 
 
-     <li className="w-40 bg-blue-600 hover:bg-blue-700 text-white px-4 py-1 
-rounded-lg flex items-center gap-2 text-lg">
+     <li className="w-42 bg-blue-600 hover:bg-blue-700 text-white px-2 py-2 
+rounded-lg flex items-center gap-1 text-[16px]">
   <a href="tel:+918860567964" className="flex items-center gap-2">
     <PhoneCall />
-    <span>8860567964</span>
+    <span>+91 8860567964</span>
   </a>
 </li>
 
