@@ -175,10 +175,10 @@ const PrivacyPolicy = () => {
         <span className="font-semibold">Phone:</span> +91 8860567964
       </p>
       <p>
-        <span className="font-semibold">Address:</span> Sadar Bazar, Delhi - 110006
+        <span className="font-semibold">Address:</span> 2591, Naya Bazar, Near Dr. Ashok Gupta Clinic, Delhi- 110006
       </p>
       <p>
-        <span className="font-semibold">Website:</span> www.ECommerceService4u.com
+        <span className="font-semibold">Website:</span> https://ecommerceservices4u.in
       </p>
 
     </div>

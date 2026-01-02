@@ -130,7 +130,7 @@ const Home = () => {
       
 <div className="bg-gray-50"> 
 
-<div id="about" className="max-w-7xl mx-auto py-8 md:py-16 px-4 ">
+<div id="about" className="max-w-7xl mx-auto pb-8 pt-16 md:py-20 px-4 ">
   <div className="grid md:grid-cols-2 gap-10 items-center">
 
     {/* TEXT SECTION (About Us) */}

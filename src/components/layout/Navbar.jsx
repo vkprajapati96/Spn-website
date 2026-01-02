@@ -117,7 +117,7 @@ const Navbar = () => {
           </Link>
 
           <a href="#about" onClick={() => setOpen(false)}>
-            <li className="text-lg  hover:text-blue-600">About Us</li>
+            <li className="text-lg  hover:text-blue-600">About</li>
           </a>
 
           {/* Services inside mobile */}
@@ -145,7 +145,7 @@ const Navbar = () => {
           )} */}
 
    <a href="#contact" onClick={() => setOpen(false)}>
-            <li className="text-lg hover:text-blue-600">Contact Us</li>
+            <li className="text-lg hover:text-blue-600">Contact</li>
           </a>
 
 

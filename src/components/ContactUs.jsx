@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { toast } from 'react-toastify';
+
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -28,7 +30,7 @@ const ContactUs = () => {
     setLoading(true);
     setError("");
 
-    if (!formData.name || !formData.email || !formData.phone || !formData.message) {
+    if (!formData.name || !formData.email || !formData.phone) {
       setError("Please fill all required fields");
       setLoading(false);
       return;
@@ -44,6 +46,8 @@ const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
+        toast.success("Message sent successfully");
+          
           setSubmitted(true);
           setFormData({
             name: "",
@@ -57,6 +61,7 @@ const ContactUs = () => {
         },
         (error) => {
           console.log(error.text);
+          toast.error("Failed to send message");
           setError("Failed to send message");
           setLoading(false);
         }
@@ -73,20 +78,7 @@ const ContactUs = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
           {/* LEFT - FORM */}
           <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8">
-            {submitted && (
-              <div className="mb-6 p-4 bg-green-100 border-2 border-green-400 rounded-lg flex items-center gap-3">
-                <div>
-                  <p className="text-green-800 text-sm">Your message has been sent successfully.</p>
-                </div>
-              </div>
-            )}
 
-            {error && (
-              <div className="mb-6 p-4 bg-red-100 border-2 border-red-400 rounded-lg">
-                <p className="text-red-900 font-bold mb-1">Error</p>
-                <p className="text-red-800 text-sm">{error}</p>
-              </div>
-            )}
 
             <form onSubmit={sendEmail} className="space-y-5">
               {/* Name */}
@@ -119,6 +111,7 @@ const ContactUs = () => {
                   required
                   className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 />
+
               </div>
 
               {/* Phone */}
@@ -178,7 +171,7 @@ const ContactUs = () => {
             {/* Email */}
             <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow">
               <div className="flex gap-4">
-                <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center shrink-0">
                   <Mail className="text-blue-600" size={24} />
                 </div>
                 <div>
@@ -195,7 +188,7 @@ const ContactUs = () => {
             {/* Phone */}
             <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow">
               <div className="flex gap-4">
-                <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center shrink-0">
                   <Phone className="text-green-600" size={24} />
                 </div>
                 <div>
@@ -210,7 +203,7 @@ const ContactUs = () => {
             {/* Address */}
             <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow">
               <div className="flex gap-4">
-                <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center shrink-0">
                   <MapPin className="text-purple-600" size={24} />
                 </div>
                 <div>
@@ -218,8 +211,8 @@ const ContactUs = () => {
                     Address
                   </h3>
                   <p className="text-sm text-gray-600">
-                    Sadar Bazar, Delhi - 110006
-                  </p>
+2591, Naya Bazar, Near <br /> Dr. Ashok Gupta Clinic, Delhi- 110006         
+         </p>
                 </div>
               </div>
             </div>
